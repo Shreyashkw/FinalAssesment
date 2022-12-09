@@ -1,0 +1,15 @@
+Create database Shreyash;
+use Shreyash;
+create table employee(id int, name varchar(50),designation varchar(50),salary int);
+insert into employee(id,name,designation,salary) values(2,"Ameya","tester",10000);
+insert into employee(id,name,designation,salary) values(5,"kartik","tester",300);
+insert into employee(id,name,designation,salary) values(3,"raj","tester",3344);
+insert into employee(id,name,designation,salary) values(1,"sahil","tester",50000);
+insert into employee(id,name,designation,salary) values(9,"saurabh","tester",30000);
+select * from employee;
+select * from employee where id>=2 && id<=5;
+select * from employee ORDER By salary ASC;
+Update employee Set salary = 45656 where id = 3;
+select * from employee;
+delete from employee where name= "Ameya";
+select * from employee;

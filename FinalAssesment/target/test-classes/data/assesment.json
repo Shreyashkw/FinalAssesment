@@ -1,0 +1,37 @@
+{
+	"Valid": {
+		"loginEmail": "mainhub@gmail.com",
+		"loginPassword": "123456",
+		"Coupon": "FIRST50"
+	},
+	"Blank": {
+		"loginEmail": "mainhub@gmail.com",
+		"loginPassword": "123456",
+		"Coupon": ""
+	},
+	"specialCharcter": {
+		"loginEmail": "mainhub@gmail.com",
+		"loginPassword": "123456",
+		"Coupon": "@#$%"
+	},
+	"oneNum": {
+		"loginEmail": "mainhub@gmail.com",
+		"loginPassword": "123456",
+		"Coupon": "1"
+	},
+	"oneChar": {
+		"loginEmail": "mainhub@gmail.com",
+		"loginPassword": "123456",
+		"Coupon": "a"
+	},
+	"Space": {
+		"loginEmail": "mainhub@gmail.co",
+		"loginPassword": "123456",
+		"Coupon": "  "
+	},
+	"maxNum": {
+		"loginEmail": "mainhub@gmail.co",
+		"loginPassword": "123456",
+		"Coupon": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"
+	}
+}
